@@ -1,0 +1,30 @@
+# Nmap 7.92 scan initiated Mon Sep 22 17:49:57 2025 as: nmap -sS -oN C:\\Users\\Meet\\Desktop\\nmap_scan_results.txt ip_address
+Nmap scan report for target_ip
+Host is up (0.000095s latency).
+All 1000 scanned ports on target_ip are in ignored states.
+Not shown: 1000 filtered tcp ports (no-response)
+MAC Address: 00:50:56:F1:68:D7 (VMware)
+
+Nmap scan report for ip_address
+Host is up (0.0011s latency).
+Not shown: 994 closed tcp ports (reset)
+PORT     STATE SERVICE
+135/tcp  open  msrpc
+139/tcp  open  netbios-ssn
+445/tcp  open  microsoft-ds
+902/tcp  open  iss-realsecure
+912/tcp  open  apex-mesh
+8888/tcp open  sun-answerbook
+
+Nmap scan report for ip_address
+Host is up (0.0018s latency).
+Not shown: 994 closed tcp ports (reset)
+PORT     STATE SERVICE
+135/tcp  open  msrpc
+139/tcp  open  netbios-ssn
+445/tcp  open  microsoft-ds
+902/tcp  open  iss-realsecure
+912/tcp  open  apex-mesh
+8888/tcp open  sun-answerbook
+
+# Nmap done at Mon Sep 22 17:51:07 2025 -- 256 IP addresses (3 hosts up) scanned in 70.49 seconds
